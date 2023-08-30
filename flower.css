@@ -1,0 +1,366 @@
+/* universal style */
+* {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+/* header style */
+.head {
+    width: 1350px;
+    height: 700px;
+    padding: 50px 100px 0 100px;
+    background: rgba(229, 84, 115, 0.10);
+    background-image: url('flower/pngwing\ 6.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    background-position-x: 70%;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-title {
+    font-size: 40px;
+
+
+}
+
+.flower {
+    color: #E55473;
+}
+
+#search {
+    background-color: #E55473;
+    border-radius: 50%;
+    padding: 7px;
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+#shop {
+    background-color: #E55473;
+    border-radius: 50%;
+    padding: 7px;
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+/* banner style */
+.pri-btn {
+    background-color: #E55473;
+    color: whitesmoke;
+    border: none;
+    border-radius: 2px;
+    padding: 5px 15px;
+    font-weight: 500px;
+
+
+}
+
+.form-field {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 50px;
+}
+
+select {
+    border: none;
+    background-color: rgba(128, 128, 128, 0.212);
+    height: 25px;
+    padding: 0 10px;
+    margin: 5px 10px;
+    font-weight: bold;
+}
+
+.banner-title {
+    margin: 100px 0 50px 0;
+    font-size: 55px;
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.banner-des {
+    margin-bottom: 20px;
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.651);
+}
+
+/* section style */
+/* section style */
+.container {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.about {
+    margin-top: 150px;
+    width: 1350px;
+    height: 800px;
+    padding: 50px 100px 0 100px;
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.about-title {
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 800;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 50px;
+
+}
+
+.about-des {
+    margin-bottom: 20px;
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.651);
+    margin-bottom: 50px;
+}
+
+/* fetured section style */
+.featured {
+    margin-top: 50px;
+    width: 1350px;
+    height: 800px;
+    padding: 50px 0px 0 100px;
+    margin-bottom: 150px;
+
+
+}
+
+.featured-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 15px;
+
+}
+
+.featured-des {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.651);
+    margin-bottom: 50px;
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+
+
+
+}
+
+.type-container {
+    display: flex;
+    gap: 25px;
+    margin-top: 50px;
+
+}
+
+.flower-type {
+    background-color: #e5547346;
+    width: 450px;
+    height: 550px;
+    border-radius: 300px 300px 0px 0px;
+    padding:
+}
+
+.flower-img {
+    width: 370px;
+    height: 370px;
+    padding: 180px 10px 5px 10px;
+}
+
+.flower-name {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    text-decoration: underline;
+
+}
+
+/* hot section style */
+.hot-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
+
+}
+
+.hot-deal {
+    width: 1350px;
+    height: 500px;
+    padding: 50px 100px 0 100px;
+    background: rgba(229, 84, 115, 0.10);
+    margin-bottom: 150px;
+
+}
+
+.hot-content {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.hot-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 15px;
+}
+
+.hot-des {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.651);
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+
+}
+
+/* instagram section style */
+.instagram {
+    width: 1350px;
+    height: 500px;
+    padding: 50px 100px 0 100px;
+    margin-bottom: 150px;
+
+}
+
+.insta-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+
+}
+
+.insta-des {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.651);
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.insta-container {
+    display: flex;
+    gap: 20px;
+}
+
+/* deal section style */
+.deal {
+    margin: 50px 100px;
+    background-image: url('flower/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 1300px;
+}
+
+.latest-deal {
+    text-align: center;
+    padding: 100px;
+}
+
+.deal-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+
+}
+
+.deal-des {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.651);
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+input {
+    border: none;
+    margin-bottom: 10px;
+}
+
+.flower-shop {
+    width: 1350px;
+    height: 500px;
+    padding: 50px 100px 0 100px;
+    background: black;
+    margin-bottom: 150px;
+
+}
+
+.shop-container {
+    padding: 50px 100px 50px 100px;
+    text-align: center;
+}
+
+.shop-des {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 10px 300px 50px 300px;
+}
+
+.shop-title {
+    font-size: 40px;
+}
+
+.note {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
